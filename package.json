@@ -1,0 +1,27 @@
+{
+  "name": "tasks-dashboard",
+  "version": "1.0.0",
+  "description": "A simple fullstack mini app where users can create and manage tasks.   The backend is built with **Node.js + Express** (in-memory storage).   The frontend is built with **React**.",
+  "main": "index.js",
+  "scripts": {
+    "backend": "cd backend && npm run backend",
+    "frontend": "cd frontend && npm start",
+    "start": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ocomarissa2020/tasks-dashboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ocomarissa2020/tasks-dashboard/issues"
+  },
+  "homepage": "https://github.com/ocomarissa2020/tasks-dashboard#readme",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
