@@ -33,6 +33,7 @@ The frontend is built with **React**.
 ---
 
 ## How to Run
+```bash
 cd tasks-dashboard
 npm start
 Runs on http://localhost:4000 - BE
@@ -46,6 +47,7 @@ npm run backend
 Runs on http://localhost:4000
 
 ### Frontend Only
+```bash
 cd frontend
 npm install
 npm start
